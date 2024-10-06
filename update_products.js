@@ -1,7 +1,7 @@
 const axios = require('axios');
 const csv = require('csv-parser');
 const Shopify = require('shopify-api-node');
-// require('dotenv').config();
+require('dotenv').config();
 const stream = require('stream');
 const { promisify } = require('util');
 const fs = require('fs');
