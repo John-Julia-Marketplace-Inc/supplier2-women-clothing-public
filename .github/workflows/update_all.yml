@@ -39,7 +39,7 @@ jobs:
         run: npm install axios csv-parser dotenv shopify-api-node fs
       
       - name: Update all products
-        run: node /home/runner/work/supplier2_women_clothing_update_all/supplier2_women_clothing_update_all/update_products.js
+        run: node /home/runner/work/supplier2-women-clothing-update_all/supplier2-women-clothing-update_all/update_products.js
         env:
           SHOP: ${{ secrets.SHOP }}
           SHOPIFY_ACCESS_TOKEN: ${{ secrets.SHOPIFY_ACCESS_TOKEN }}
